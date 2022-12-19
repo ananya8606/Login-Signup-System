@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.form-container
+{
+    background-color:wheat;
+    text-align: center;
+    width:fit-content;
+    height:max-content;
+    padding:5px;
+}
+body
+{
+    height: 75vh;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+}
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+input::placeholder
+{
+    color: rgb(182, 182, 182) !important;
+}
+
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
